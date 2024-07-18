@@ -65,4 +65,25 @@
     }
     /* habit-content end */
 
+    /* run extra mile start */
+    .run-extra-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-extra-content{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        margin-top: 50px;
+        padding: 15px 20px;
+    }
+    .run-extra-img{
+        width: 100%;
+        padding:5px 25px;
+    }
+    /* run extra mile end */
+
 }

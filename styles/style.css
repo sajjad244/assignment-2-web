@@ -251,3 +251,38 @@ body {
     opacity: 0.5;
 }
 /* habit-container end */
+
+/* run-extra-container start */
+.run-extra-container{
+    border: 1px solid rgba(255, 255, 255, 0.067);
+    background-color: rgba(255, 255, 255, 0.067);
+    border-radius: 10px;
+    display: flex;
+    gap: 65px;
+}
+.run-extra-content{
+    width: 45%;
+    padding: 41px 54px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.extra-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+.run-description{
+    opacity: 0.5;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}
+.run-extra-img{
+    width: 50%;
+    padding: 41px 54px;
+}
+.run-extra-img img{
+    width: 100%;
+    border-radius: 20px;
+}
+/* run-extra-container end */
