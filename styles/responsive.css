@@ -15,7 +15,7 @@
 
     .navbar {
         width: 400px;
-        margin-left:25px;
+        margin-left: 25px;
     }
 
     /* navbar end*/
@@ -36,11 +36,33 @@
         top: 40%;
         left: 5%;
     }
-    .banner-card-2{
+
+    .banner-card-2 {
         width: 170px;
         height: 80px;
         left: 40%;
     }
+
     /* .ban  ner-container end */
+
+    /* habit-content start */
+    .habit-container {
+        margin-top: 10px;
+    }
+
+    .habit-card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .habit-card-1,
+    .habit-card-2,
+    .habit-card-4,
+    .habit-card-3 {
+        gap: 20px;
+    }
+    .habit-items{
+        margin-bottom: 20px;
+    }
+    /* habit-content end */
 
 }
