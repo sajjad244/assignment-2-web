@@ -24,6 +24,9 @@
     .banner-container {
         flex-direction: column;
     }
+    .banner-content{
+        margin-left: 5px;
+    }
 
     .banner-tittle {
         font-size: 3.7rem;
@@ -85,5 +88,21 @@
         padding:5px 25px;
     }
     /* run extra mile end */
+
+    /* .training-container start */
+    .training-container{
+        margin-left: 25px;
+    }
+    .row-1, .row-2{
+        grid-template-columns: 1fr 1fr;
+    }
+    .train-card-2 h5{
+        top: 10%;
+        left: 15px;
+    }
+    .hidden{
+        display: none;
+    }
+    /* .training-container end */
 
 }

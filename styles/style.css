@@ -286,3 +286,98 @@ body {
     border-radius: 20px;
 }
 /* run-extra-container end */
+
+/* training-container start */
+.training-container{
+    margin-top: 100px;
+}
+.train-description{
+    opacity: 0.5;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5;
+}
+/* card */
+.train-card-img img{
+    width: 100%;
+    height: auto;
+}
+.train-card-img h5{
+    font-size: 0.6rem;
+    font-weight: 200;
+}
+.row-1{
+    display: grid;
+    grid-template-columns: 0.8fr 1.25fr 0.8fr;
+    gap:1px;
+}
+.train-card-img .img-1{
+    height: 220px;
+}
+.train-card-img .img-2{
+    height: 220px;
+}
+.train-card-img .img-3{
+    height: 220px;
+}
+
+.row-2{
+    display: grid;
+    grid-template-columns:1.25fr 1fr 0.7fr;
+    gap:1px;
+}
+.train-card-img .img-4{
+    height: 220px;
+}
+.train-card-img .img-5{
+    height: 220px;
+}
+.train-card-img .img-6{
+    height: 220px;
+}
+
+.train-card{
+    position: relative;
+}
+.train-card h5{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+.train-card-2{
+    position: relative;
+}
+.train-card-2 h5{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+}
+/* training-container end */
+
+/* bmi-container start  */
+.bmi-container{
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bmi-section{
+    border: 1px solid rgba(255, 255, 255, 0.067);
+    background-color: rgba(255, 255, 255, 0.067);
+    border-radius: 2px;
+}
+table, td ,th{
+    border: 1px solid rgba(255, 255, 255, 0.067);
+    border-collapse: collapse;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+td{
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+/* bmi-container end */
