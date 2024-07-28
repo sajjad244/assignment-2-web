@@ -369,6 +369,14 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.067);
     background-color: rgba(255, 255, 255, 0.067);
     border-radius: 2px;
+    display: flex;
+    gap: 50px;
+}
+/* chart start */
+.chart{
+    width: 50%;
+    margin-left: 160px;
+    margin-bottom: 100px;
 }
 table, td ,th{
     border: 1px solid rgba(255, 255, 255, 0.067);
@@ -380,6 +388,44 @@ td{
     opacity: 0.5;
     font-size: 0.8rem;
 }
+.tb-title{
+    font-size:1.7rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+/* chart end */
 
+/* calculator start */
+.calculator{
+    width: 55%;
+    margin-right: 160px;
+}
+.tb-title1{
+    font-size:1.7rem;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.cal-item1 p{
+    margin-left: 10px;
+}
+input ,select{
+    width:48%; 
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 10px;
+    margin: 5px 2px;
+    color:rgba(255, 255, 255, 0.4);
+}
+#select{
+    width: 99%;
+}
+.calculator form > button{
+    margin-top: 30px;
+}
+/* calculator end */
 
 /* bmi-container end */
