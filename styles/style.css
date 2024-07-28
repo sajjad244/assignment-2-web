@@ -304,8 +304,8 @@ body {
     height: auto;
 }
 .train-card-img h5{
-    font-size: 0.6rem;
-    font-weight: 200;
+    font-size: 0.7rem;
+    font-weight: 400;
 }
 .row-1{
     display: grid;
@@ -314,12 +314,17 @@ body {
 }
 .train-card-img .img-1{
     height: 220px;
+    filter: grayscale(100%) sepia(100%) hue-rotate(100deg) saturate(90%) blur(0.5px) ;
+    opacity: 0.5px;
+    
 }
 .train-card-img .img-2{
     height: 220px;
+    filter: grayscale(30%) sepia(50%) hue-rotate(10deg) saturate(90%) blur(0.5px);
 }
 .train-card-img .img-3{
     height: 220px;
+    filter: grayscale(9%) sepia(20%) hue-rotate(10deg) saturate(80%) blur(0.5px) contrast(80%);
 }
 
 .row-2{
@@ -329,12 +334,14 @@ body {
 }
 .train-card-img .img-4{
     height: 220px;
+    filter: grayscale(90%) sepia(100%) hue-rotate(90deg) saturate(10%) blur(0.5px);
 }
 .train-card-img .img-5{
     height: 220px;
 }
 .train-card-img .img-6{
     height: 220px;
+    filter: grayscale(9%) sepia(20%) hue-rotate(10deg) saturate(80%) blur(0.5px) contrast(80%);
 }
 
 .train-card{
