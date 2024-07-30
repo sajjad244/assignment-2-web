@@ -122,14 +122,15 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 5px;
     }
     .chart{
-        width: 100%;
-        margin-left: 160px;
+        width: 80%;
         margin-bottom: 100px;
+        margin-right: 90px;
     }
     .calculator{
-        width: 80%;
+        width: 70%;
         margin-left: 160px;
     }
     /* bmi section end */
