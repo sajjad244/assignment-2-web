@@ -134,4 +134,44 @@
         margin-left: 160px;
     }
     /* bmi section end */
+
+    /* meet-container start */
+    .meet-row-1 {
+        grid-template-columns: 1fr;
+    }
+    .meet-row-2 {
+        grid-template-columns: 1fr;
+    }
+    .trainer1{
+        display:none;
+    }
+    .trainer4{
+        display:none;
+    }
+    .hide{
+        display: none;
+    }
+    .meet-row-2 img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 18px;
+    }
+    .meet-row-1 img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 18px;
+    }
+    .meet-card > .meet-title{
+        position: absolute;
+        top: 85%;
+        left: 10%;
+    }
+    .meet-card > .meet-des{
+        position: absolute;
+        top: 90%;
+        left: 10%;
+    }
+    /* meet-container end */
 }

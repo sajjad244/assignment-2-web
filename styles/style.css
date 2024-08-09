@@ -436,3 +436,70 @@ input ,select{
 /* calculator end */
 
 /* bmi-container end */
+
+
+/* meet-container start*/
+.meet-container{
+    text-align: center;
+    margin-top: 88px;
+    margin-bottom: 58px;
+}
+.meet-section{
+    background-color: rgba(255, 255, 255, 0.067);
+    border-radius: 20px;
+    
+}
+.meet-row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 20px;
+    padding: 30px 0;
+    align-items: center;
+    gap: 15px;
+}
+.meet-row-1 img{
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+}
+.meet-row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 20px;
+    padding: 20px 0;
+    align-items: center;
+    gap: 15px;
+    margin-top: -60px;
+    
+}
+.meet-row-2 img{
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+}
+.trainer4 .trainer3{
+    object-fit: cover;
+}
+.meet-card{
+    position: relative;
+}
+.meet-card > .meet-title{
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.meet-card > .meet-des{
+    position: absolute;
+    top: 83%;
+    left: 10%;
+}
+.meet-des{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.9rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+}
+/* meet-container end*/
