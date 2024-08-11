@@ -163,6 +163,16 @@
         width: 70%;
         margin-left: 160px;
     }
+    input ,select{
+        width: 45%;
+    }
+    #select{
+        width: 95%;
+    }
+    .calculator form > button{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
     /* bmi section end */
 
     /* meet-container start */

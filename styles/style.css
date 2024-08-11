@@ -313,9 +313,8 @@ body {
 }
 .train-card-img .img-1{
     height: 220px;
-    filter: grayscale(100%) sepia(100%) hue-rotate(100deg) saturate(90%) blur(0.5px) ;
+    filter: grayscale(100%) sepia(100%) hue-rotate(100deg) saturate(90%) blur(0.5px);
     opacity: 0.5px;
-    
 }
 .train-card-img .img-2{
     height: 220px;
