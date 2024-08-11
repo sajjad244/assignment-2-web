@@ -5,17 +5,46 @@
 @media screen and (max-width:576px) {
 
     /* navbar */
+    .btn-normal {
+        width: 160px;
+        height: 54px;
+        border-radius: 42px;
+        border: 2px solid;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+        background-color: black;
+        margin-left: 14px;
+    }
+    .btn {
+        width: 160px;
+        height: 54px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+
     .nav-items {
         display: none;
     }
 
     .hamburger {
         display: block;
+        margin-right: 35px;
+    }
+    .banner-btn {
+        padding: 5px;
+        display: flex;
     }
 
     .navbar {
         width: 400px;
         margin-left: 25px;
+        justify-content: space-between;
     }
 
     /* navbar end*/
@@ -25,7 +54,7 @@
         flex-direction: column;
     }
     .banner-content{
-        margin-left: 5px;
+        margin-left: 20px;
     }
 
     .banner-tittle {
@@ -86,6 +115,7 @@
     .run-extra-img{
         width: 100%;
         padding:5px 25px;
+        object-fit: cover;
     }
     /* run extra mile end */
 
