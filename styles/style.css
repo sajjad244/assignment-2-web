@@ -71,6 +71,10 @@ body {
     padding: 2px;
     text-align: center;
 }
+a{
+    color: white;
+    text-decoration: none;
+}
 
 .hamburger {
     display: none;
@@ -501,3 +505,59 @@ letter-spacing: 0.3px;
 text-align: left;
 }
 /* meet-container end*/
+
+/* footer-container start*/
+
+.footer-container{
+    border: 0.1px solid black;
+    background: linear-gradient(90deg, rgb(17, 17, 17), rgba(119, 119, 119, 0.2) 100%);
+
+}
+.footer-section{
+    max-width: 1044px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 2.3fr 1fr 1fr;
+    gap: 20%;
+
+}
+.fitness>h1{
+    color: rgb(230, 83, 60);
+font-size:3rem;
+font-weight: 800;
+font-style: italic;
+}
+.fitness>p{
+    font-size: 0.9rem;
+}
+.get-start1>h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+ol{
+    list-style: none;
+}
+.list-i{
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 180%;
+}
+.hrr{
+    max-width: 1044px;
+    margin: 0 auto;
+}
+hr{
+    margin-top: 79px;
+    margin-bottom: 35px;
+    width: 100%;
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+}
+.hrr>h6{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+/* footer-container end */
