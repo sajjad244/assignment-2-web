@@ -34,7 +34,7 @@
 
     .hamburger {
         display: block;
-        margin-right: 35px;
+        margin-right: 20px;
     }
     .banner-btn {
         padding: 5px;
@@ -42,11 +42,14 @@
     }
 
     .navbar {
-        width: 400px;
+        width:80%;
         margin-left: 25px;
         justify-content: space-between;
     }
-
+    .main-container {
+        width: 100%;
+        margin: 0 auto;
+    }
     /* navbar end*/
 
     /* .banner-container start */
@@ -157,7 +160,7 @@
     .chart{
         width: 80%;
         margin-bottom: 100px;
-        margin-right: 90px;
+        margin-right: 120px;
     }
     .calculator{
         width: 70%;

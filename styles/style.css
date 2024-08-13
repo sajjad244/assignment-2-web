@@ -520,7 +520,6 @@ text-align: left;
     display: grid;
     grid-template-columns: 2.3fr 1fr 1fr;
     gap: 20%;
-
 }
 .fitness>h1{
     color: rgb(230, 83, 60);
